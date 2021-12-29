@@ -1,0 +1,14 @@
+name: Freeze
+main: NoobMCBG\Freeze\Freeze
+api: 4.0.0
+version: 1.0.0
+author: NoobMCBG
+description: Don't let the player move
+
+permissions:
+  freeze.command:
+    description: Permissions use command /freeze
+    default: op
+  unfreeze.command:
+    description: Permissions use command /unfreeze
+    default: op

@@ -1,0 +1,34 @@
+---
+# config.yml
+
+# Let freeze when the player is not online
+# use true = enable
+# use false = disable
+freeze-no-online: true
+# Message Player Not Online
+# Use & to change text color
+# Use {player} to get the player name
+# Use {line} to make a new line
+player-not-online: "&cPlayer {player} not online"
+
+# Message Freeze Player Successfully
+# Use & to change text color
+# Use {player} to get the player name
+# Use {line} to make a new line
+msg-freeze-successfully: "&aFreeze Player {player} Successfully"
+
+# Message UnFreeze Player Successfully
+# Use & to change text color
+# Use {player} to get the player name
+# Use {line} to make a new line
+msg-unfreeze-successfully: "&aUnfreeze Player {player} Successfully"
+
+# Message UnFreeze Player Successfully
+# Use & to change text color
+# Use {player} to get the player name
+# Use {line} to make a new line
+# mode list: popup, message, title
+msg-freeze:
+  mode: "popup"
+  msg: "&cYou are frozen"
+...
